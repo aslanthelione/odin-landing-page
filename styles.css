@@ -1,3 +1,11 @@
+:root {
+    --dark: #1F2937;
+    --light: #F9FAF8;
+    --blue: #3882F6;
+    --gray: #E5E7EB;
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -10,7 +18,7 @@ h2 {
 
 header,
 .hero {
-    background-color: #1F2937;
+    background-color: var(--dark);
 }
 
 header .container {
@@ -30,13 +38,13 @@ nav {
 .logo {
     margin-right: auto;
     font-size: 24px;
-    color: #F9FAF8;
+    color: var(--light);
     font-weight: bold;
 }
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: var(--gray);
 }
 
 /* hero */
@@ -59,23 +67,23 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #637377;
-    color: #F9FAF8;
+    background-color: gray;
+    color: var(--light);
 }
 
 .hero h1 {
     font-size: 48px;
-    color: #F9FAF8;
+    color: var(--light);
     font-weight: 900;
 }
 
 .subtext {
     font-size: 18px;
-    color: #E5E7EB;
+    color: var(--gray);
 }
 
 button {
-    background-color: #3882F6;
+    background-color: var(--blue);
 }
 
 .hero button {
@@ -83,7 +91,7 @@ button {
     border-radius: 8px;
     padding: 8px 24px;
     margin-top: 8px;
-    color: #F9FAF8;
+    color: var(--light);
     font-weight: bold;
 }
 
@@ -96,7 +104,7 @@ button {
 
 .info h2 {
     font-size: 36px;
-    color: #1F2937;
+    color: var(--dark);
     font-weight: 900;
     text-align: center;
     padding: 36px;
@@ -117,7 +125,7 @@ button {
 .illustration {
     width: 160px;
     height: 160px;
-    border-color: #3882F6;
+    border-color: var(--blue);
     border-radius: 8px;
     border-width: 4px;
     border-style: solid;
@@ -126,9 +134,9 @@ button {
 /* quote */
 
 .quote {
-    background-color: #E5E7EB;
+    background-color: var(--gray);
     font-size: 36px;
-    color: #1F2937;
+    color: var(--dark);
     font-weight: 300;
     font-style: italic;
     padding: 48px;
@@ -150,8 +158,8 @@ button {
 
 .call-to-action .container {
     max-width: 1280px;
-    background-color: #3882F6;
-    color: #F9FAF8;
+    background-color: var(--blue);
+    color: var(--light);
     display: flex;
     margin: 48px auto;
     padding: 36px 96px;
@@ -160,11 +168,11 @@ button {
 }
 
 .call-to-action button {
-    border: #F9FAF8;
+    border: var(--light);
     padding: 8px 24px;
     border-radius: 8px;
     border-style: solid;
-    color: #F9FAF8;
+    color: var(--light);
 }
 
 .call-to-action h2 {
@@ -175,8 +183,8 @@ button {
 /* footer */
 
 footer {
-    background-color: #1F2937;
-    color: #F9FAF8;
+    background-color: var(--dark);
+    color: var(--light);
     padding: 24px;
     text-align: center;
 }
