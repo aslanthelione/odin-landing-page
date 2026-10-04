@@ -80,19 +80,19 @@ a {
 .subtext {
     font-size: 18px;
     color: var(--gray);
+    margin-bottom: 16px;
 }
 
 button {
     background-color: var(--blue);
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: var(--light);
 }
 
 .hero button {
     border: none;
-    border-radius: 8px;
-    padding: 8px 24px;
-    margin-top: 8px;
-    color: var(--light);
-    font-weight: bold;
 }
 
 /* info */
@@ -169,10 +169,8 @@ button {
 
 .call-to-action button {
     border: var(--light);
-    padding: 8px 24px;
-    border-radius: 8px;
     border-style: solid;
-    color: var(--light);
+    align-self: center;
 }
 
 .call-to-action h2 {
