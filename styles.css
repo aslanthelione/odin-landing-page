@@ -131,10 +131,8 @@ button:hover {
 .illustration {
     width: 160px;
     height: 160px;
-    border-color: var(--blue);
     border-radius: 8px;
-    border-width: 4px;
-    border-style: solid;
+    border: 4px solid var(--blue);
 }
 
 /* quote */
@@ -174,8 +172,7 @@ button:hover {
 }
 
 .call-to-action button {
-    border: var(--light);
-    border-style: solid;
+    border: 3px solid var(--light);
     align-self: center;
 }
 
