@@ -123,8 +123,6 @@ button {
     border-style: solid;
 }
 
-
-
 /* quote */
 
 .quote {
@@ -149,12 +147,6 @@ button {
 }
 
 /* call to action */
-
-.call-to-action {
-    /* display: flex;
-    justify-content: center; */
-
-}
 
 .call-to-action .container {
     max-width: 1280px;
