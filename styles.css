@@ -8,17 +8,17 @@ h2 {
     margin-bottom: 0px;
 }
 
-header {
+header,
+.hero {
     background-color: #1F2937;
-    display: flex;
-    justify-content: center;
 }
 
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: 0 1 1280px;
+    max-width: 1280px;
+    margin: 0 auto;
     padding: 16px;
 }
 
@@ -41,17 +41,12 @@ a {
 
 /* hero */
 
-.hero {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: center;
-}
-
 .hero .container {
     display: flex;
     justify-content: space-between;
-    flex-basis: 1280px;
+    max-width: 1280px;
     padding: 100px 0;
+    margin: 0 auto;
     gap: 24px;
 }
 
@@ -93,24 +88,28 @@ button {
 }
 
 /* info */
-.info {
-    display: flex;
-    justify-content: center;
+
+.info .container {
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
+.info h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 36px;
+}
 
 .items {
     display: flex;
-    justify-content: center;
-    gap: 48px;
+    justify-content: space-around;
     margin-bottom: 72px;
 }
 
 .item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 200px;
+    max-width: 160px;
     text-align: center;
     color: #637377;
 }
@@ -124,13 +123,7 @@ button {
     border-style: solid;
 }
 
-.info h2 {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
-    text-align: center;
-    padding: 36px;
-}
+
 
 /* quote */
 
@@ -140,13 +133,12 @@ button {
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
-    display: flex;
-    justify-content: center;
     padding: 48px;
 }
 
 .quote .container {
-    flex-basis: 815px;
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 .quote .attribution {
@@ -159,17 +151,17 @@ button {
 /* call to action */
 
 .call-to-action {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 
 }
 
 .call-to-action .container {
+    max-width: 1280px;
     background-color: #3882F6;
     color: #F9FAF8;
     display: flex;
-    flex-basis: 1280px;
-    margin: 48px 0px;
+    margin: 48px auto;
     padding: 36px 96px;
     border-radius: 8px;
     justify-content: space-between;
@@ -194,7 +186,5 @@ footer {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
