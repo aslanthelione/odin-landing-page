@@ -2,6 +2,7 @@
     --dark: #1F2937;
     --light: #F9FAF8;
     --blue: #3882F6;
+    --lightblue: #4f8bec;
     --gray: #E5E7EB;
 }
 
@@ -89,6 +90,11 @@ button {
     border-radius: 8px;
     font-weight: bold;
     color: var(--light);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--lightblue);
 }
 
 .hero button {
