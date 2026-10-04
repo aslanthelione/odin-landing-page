@@ -3,13 +3,13 @@ body {
     margin: 0;
 }
 
-.header {
+header {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
 }
 
-.header .container {
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +17,7 @@ body {
     padding: 16px;
 }
 
-.header-links {
+nav {
     color: #E5E7EB;
     display: flex;
     gap: 24px;
@@ -59,7 +59,7 @@ body {
     color: #F9FAF8;
 }
 
-.hero-heading {
+.hero h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
@@ -115,7 +115,7 @@ button {
     border-style: solid;
 }
 
-.info-heading {
+.info h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
@@ -174,14 +174,14 @@ button {
     color: #F9FAF8;
 }
 
-.call-to-action .heading {
+.call-to-action h2 {
     font-size: 24px;
     font-weight: bold;
 }
 
 /* footer */
 
-.footer {
+footer {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 24px;
